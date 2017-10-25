@@ -84,7 +84,7 @@ class TeamImportTab extends React.Component {
                 <p>
                     <FormattedMessage
                         id='team_import_tab.importHelpLine1'
-                        defaultMessage="Slack import to Mattermost supports importing of messages in your Slack team's public channels."
+                        defaultMessage="Slack import to Scrybe supports importing of messages in your Slack team's public channels."
                     />
                 </p>
                 <p>

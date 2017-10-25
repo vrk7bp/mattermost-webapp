@@ -613,7 +613,7 @@ export default class LoginController extends React.Component {
             description = (
                 <FormattedMessage
                     id='web.root.signup_info'
-                    defaultMessage='All team communication in one place, searchable and accessible anywhere'
+                    defaultMessage='Your clinics communication platform, searchable and accessible anywhere'
                 />
             );
         }

@@ -182,7 +182,7 @@ export default class JIRASettings extends AdminSettings {
                 <BooleanSetting
                     id='enabled'
                     label={Utils.localizeMessage('admin.plugins.jira.enabledLabel', 'Enable JIRA:')}
-                    helpText={Utils.localizeMessage('admin.plugins.jira.enabledDescription', 'When true, you can configure JIRA webhooks to post message in Mattermost. To help combat phishing attacks, all posts are labelled by a BOT tag.')}
+                    helpText={Utils.localizeMessage('admin.plugins.jira.enabledDescription', 'When true, you can configure JIRA webhooks to post message in Scrybe. To help combat phishing attacks, all posts are labelled by a BOT tag.')}
                     value={this.state.enabled}
                     onChange={(id, value) => this.handleEnabledChange(value)}
                 />
@@ -214,7 +214,7 @@ export default class JIRASettings extends AdminSettings {
                 <GeneratedSetting
                     id='secret'
                     label={Utils.localizeMessage('admin.plugins.jira.secretLabel', 'Secret:')}
-                    helpText={Utils.localizeMessage('admin.plugins.jira.secretDescription', 'This secret is used to authenticate to Mattermost.')}
+                    helpText={Utils.localizeMessage('admin.plugins.jira.secretDescription', 'This secret is used to authenticate to Scrybe.')}
                     regenerateHelpText={Utils.localizeMessage('admin.plugins.jira.secretRegenerateDescription', 'Regenerates the secret for the webhook URL endpoint. Regenerating the secret invalidates your existing JIRA integrations.')}
                     value={this.state.secret}
                     onChange={this.handleSecretChange}

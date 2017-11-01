@@ -2792,7 +2792,7 @@
   "web.footer.terms": "Terms",
   "web.header.back": "Back",
   "web.header.logout": "Logout",
-  "web.root.signup_info": "The premier clinical messaging platform; secure, searchable, reliable.",
+  "web.root.signup_info": "The team-based clinical communication platform.",
   "webrtc.busy": "{username} is busy.",
   "webrtc.call": "Call",
   "webrtc.callEnded": "Call with {username} ended.",
